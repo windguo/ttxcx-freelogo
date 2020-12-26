@@ -1,0 +1,20 @@
+.s {
+	width: 100%;
+}
+
+.list {
+	text-align: center;
+}
+
+.list button {
+	font-size: 300;
+}
+
+.bdflex {
+	display: flex;
+	justify-content: space-around;
+}
+
+.bdflex .b {
+	width: 40%;
+}

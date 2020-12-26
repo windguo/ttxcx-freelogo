@@ -1,0 +1,30 @@
+Page {
+  background: #f8f8f8;
+}
+
+.kefu {
+  text-align: center;
+}
+
+.wrap {
+  padding: 50rpx 0;
+}
+
+.formStyle {
+  margin: 30rpx;
+}
+
+.formStyle input {
+  margin-bottom: 30rpx;
+  border: 1rpx solid #ebebeb;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  background: #fff;
+}
+
+.formStyle .primary {
+  width: 100%;
+  background: #ffe300;
+  padding: 20rpx 0;
+  font-weight: 300;
+}

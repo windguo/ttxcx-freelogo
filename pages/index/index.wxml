@@ -1,0 +1,10 @@
+<view class="wrap">
+  <form catchsubmit="formSubmit" method="get">
+    <view class="formStyle">
+      <input name="name" placeholder="请输入品牌名称" value="" />
+      <input name="enname" placeholder="请输入品牌英文" value="" />
+      <button class="primary" formType="submit">点击生成LOGO</button>
+    </view>
+  </form>
+</view>
+<view class="kefu">微信客服:jianjie8 (验证:logo)</view>
