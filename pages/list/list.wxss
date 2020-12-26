@@ -2,8 +2,42 @@
 	width: 100%;
 }
 
+.t {
+	line-height: 100rpx;
+	background: #fff;
+	border-bottom: 1rpx solid #f1f1f1;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50rpx;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+.t span {
+	color: orange;
+	margin: 0 5rpx;
+}
+
+.refresh {
+	color: orangered;
+}
+
+.h {
+	height: 100rpx;
+}
+
 .list {
 	text-align: center;
+	background: #fff;
+	width: 90%;
+	margin: 50rpx auto;
+	padding: 30rpx 0 60rpx 0;
+	border-radius: 20rpx;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02);
 }
 
 .list button {

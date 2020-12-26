@@ -3,18 +3,35 @@
 const app = getApp()
 
 Page({
-  data: {
-
+  onShareAppMessage(option) {
+    return {
+      title: '一键免费生成高端LOGO',
+      desc: '免费的LOGO在线设计制作工具',
+      imageUrl: '/images/index.jpg'
+    }
   },
-  onLoad: function () {},
+  onShareTimeline: () => {
+    return {
+      title: '一键免费生成高端LOGO',
+      query: "",
+      imageUrl: '/images/index.jpg'
+    }
+  },
+  onLoad: function () {
+    wx.showShareMenu({
+      menus: ['shareAppMessage', 'shareTimeLine']
+    })
+  },
   formSubmit(e) {
     if (e.detail.value.name == '') {
       wx.showModal({
-        content: '请输入品牌名称'
+        content: '请输入品牌的中文名称',
+        confirmColor: 'orangered'
       })
     } else if (e.detail.value.enname == '') {
       wx.showModal({
-        content: '请输入品牌英文',
+        content: '请输入品牌的英文简称',
+        confirmColor: 'orangered'
       })
     } else {
       wx.showLoading({

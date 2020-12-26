@@ -1,3 +1,8 @@
+<view class="t">
+	<h2>为您生成了<span>{{total}}</span>个LOGO</h2>
+	<view class="refresh" bindtap="refresh">换一换</view>
+</view>
+<view class="h"></view>
 <view class="list" wx:for="{{listArr}}">
 	<image mode="widthFix" class="s" src="{{baseUrl}}show.php?id={{item.id}}&name={{name}}&enname={{enname}}">
 	</image>

@@ -8,6 +8,7 @@ Page({
 		baseUrl: getApp().globalData.apis,
 		name: '',
 		enname: '',
+		total: '',
 		listArr: []
 	},
 
@@ -15,25 +16,41 @@ Page({
 	 * 生命周期函数--监听页面加载
 	 */
 	onLoad: function (options) {
+		wx.setNavigationBarTitle({
+			title: '生成的LOGO列表',
+		})
 		wx.showLoading({
 			title: '加载中...'
 		});
-		let that = this
 		this.setData({
 			name: options.name,
 			enname: options.enname
 		})
+		this.getList()
+	},
+	getList() {
+		let that = this
 		wx.request({
 			url: getApp().globalData.apis + 'list.php',
 			method: 'get',
 			dataType: 'json',
 			success(res) {
 				that.setData({
-					listArr: res.data.result
+					listArr: res.data.result,
+					total: res.data.result.length
 				})
 				wx.hideLoading()
 			}
 		})
+	},
+	refresh() {
+		wx.showLoading({
+			title: '加载中...'
+		});
+		this.setData({
+			listArr: []
+		})
+		this.getList()
 	},
 	edits(e) {
 		console.log('....e....', e.target.dataset.id)
@@ -46,7 +63,7 @@ Page({
 		wx.downloadFile({
 			url: url, //下载资源的地址网络
 			success: function (res) {
-				console.log(res)
+				// console.log(res)
 				// 只要服务器有响应数据，就会把响应内容写入文件并进入 success 回调，业务需要自行判断是否下载到了想要的内容
 				if (res.statusCode === 200) {
 					wx.playVoice({
@@ -60,7 +77,7 @@ Page({
 						//console.log(data);
 						wx.showModal({
 							title: '下载成功',
-							content: 'LOGO图片已经保存至您的手机',
+							content: 'LOGO图片已经保存至您的手机'
 						})
 					},
 				})
