@@ -50,5 +50,5 @@
 }
 
 .bdflex .b {
-	width: 40%;
+	width: 80%;
 }
