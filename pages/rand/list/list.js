@@ -31,7 +31,7 @@ Page({
 	getList() {
 		let that = this
 		wx.request({
-			url: getApp().globalData.apis + 'li.php',
+			url: getApp().globalData.apis + 'list.php',
 			method: 'get',
 			dataType: 'json',
 			success(res) {

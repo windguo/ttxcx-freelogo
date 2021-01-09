@@ -14,14 +14,14 @@
     "coverView": true,
     "nodeModules": false,
     "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
+    "showShadowRootInWxmlPanel": false,
     "scopeDataCheck": false,
     "uglifyFileName": false,
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
+    "useMultiFrameRuntime": true,
     "useApiHook": true,
     "babelSetting": {
       "ignore": [],
@@ -36,7 +36,8 @@
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": true,
+    "useApiHostProcess": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.1",
@@ -65,6 +66,12 @@
           "name": "pages/list/list",
           "pathName": "pages/list/list",
           "query": "name=简洁设计网&enname=JianJieSheJiWang",
+          "scene": null
+        },
+        {
+          "name": "pages/edit/edit",
+          "pathName": "pages/edit/edit",
+          "query": "id=1&name=简洁设计网&enname=JianJieSheJiWang&icon=/d/file/p/2021/01-08/b0098e30b2bb2d3a9b886f94ffe64b5b.png&bgcolor=FFFFFF&enfontcolor=E68B32&zhfontcolor=1068AC&zhfont=/d/file/p/2020/12-30/5383b1aec6119f805da325bafc202768.ttf&enfont=/d/file/p/2020/12-30/074453a08b7bd9076d4a269f4c39a137.ttf",
           "scene": null
         }
       ]

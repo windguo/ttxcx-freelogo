@@ -18,6 +18,10 @@ Page({
     }
   },
   onLoad: function () {
+    wx.showLoading({
+      title: '加载中...',
+    })
+    this.getListData();
     wx.showShareMenu({
       menus: ['shareAppMessage', 'shareTimeLine']
     })
@@ -64,5 +68,21 @@ Page({
       })
 
     }
+  },
+  getListData: function () {
+    let that = this
+    wx.request({
+      url: getApp().globalData.aishouxie_apiRoot + 'wx61c437bbdea20c24/list.php?getJson=shopindexlist',
+      method: 'GET',
+      dataType: 'json',
+      success: (json) => {
+        if (json.data.status == 1) {
+          that.setData({
+            newArray: json.data.result
+          })
+          wx.hideLoading()
+        }
+      }
+    })
   }
 })

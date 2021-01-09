@@ -7,4 +7,37 @@
     </view>
   </form>
 </view>
+<view class="list">
+  <view class="hd">
+    <navigator target="miniProgram" open-type="navigate" app-id="wx61c437bbdea20c24" path="/pages/index/index"
+      extra-data="" version="release">
+      <h2 class="title">手写设计套餐</h2>
+    </navigator>
+  </view>
+  <view class="bd">
+    <view class="box" wx:for="{{newArray}}" wx:key>
+      <navigator target="miniProgram" open-type="navigate" app-id="wx61c437bbdea20c24"
+        path="/pages/hall/detail/index?classid={{item.classid}}&id={{item.id}}" extra-data="" version="release">
+        <image src="{{item.titlepic}}" class="img radius" mode="widthFix"></image>
+        <view class="atitle">
+          <h3 class="title">{{item.title}}</h3>
+        </view>
+      </navigator>
+      <view class="onclick">已参与人数:{{item.onclick}}</view>
+      <view class="us">
+        <navigator target="miniProgram" open-type="navigate" app-id="wx61c437bbdea20c24"
+          path="/pages/user/index/index?userid={{item.userid}}&username={{item.username}}" extra-data=""
+          version="release">
+          <span class="iconfont icon-members orange"></span>
+          {{item.username}}
+        </navigator>
+      </view>
+      <view class="ft">
+        <h3 class="price">
+          <span class="red">¥{{item.price}}</span>
+        </h3>
+      </view>
+    </view>
+  </view>
+</view>
 <view class="kefu">微信客服:jianjie8 (验证:logo)</view>

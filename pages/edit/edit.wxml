@@ -1,2 +1,121 @@
-<!--pages/edit/edit.wxml-->
-<text>pages/edit/edit.wxml</text>
+<view class="content">
+	<image mode="widthFix" bindload="bindloads" class="s"
+		src="{{baseUrl}}edit.php?id={{id}}&name={{name}}&enname={{enname}}&icon={{icon}}&bgcolor={{bgcolor}}&enfontcolor={{enfontcolor}}&zhfontcolor={{zhfontcolor}}&zhfont={{zhfont}}&enfont={{enfont}}">
+	</image>
+</view>
+<view class="tips">下面可以更改相关参数哦,如有需要左下角联系客服</view>
+<view class="diy">
+	<view class="li flex">
+		<view class="t">图标:</view>
+		<view class="r rimg icon" bindtap="showIconList">
+			<image mode="widthFix" class="iconimg" style="width:100rpx" src="{{root_apis}}{{icon}}">
+			</image>
+		</view>
+	</view>
+	<view class="li flex">
+		<view class="t">背景颜色:</view>
+		<view class="r">
+			<view style="background:{{bgrgb}};border:1rpx solid #000" bindtap="toPickBg" class="color-block"></view>
+		</view>
+		<view class="sr" type="default" size="mini" bindtap="toPickBg">点击更改</view>
+	</view>
+	<view class="li flex">
+		<view class="t">中文名称:</view>
+		<view class="r">
+			<input type="text" style="color:#{{zhfontcolor}}" bindinput='bindinputzh' value="{{name}}"
+				placeholder="输入品牌中文名" />
+		</view>
+		<view class="sr" type="default" size="mini" bindtap="chengeName">更改中文</view>
+	</view>
+	<view class="li flex">
+		<view class="t">中文颜色:</view>
+		<view class="r">
+			<view style="background:{{rgb}};;border:1rpx solid #000" bindtap="toPick" class="color-block"></view>
+		</view>
+		<view class="sr" type="default" size="mini" bindtap="toPick">点击更改</view>
+	</view>
+	<view class="li flex">
+		<view class="t">英文简称:</view>
+		<view class="r">
+			<input type="text" style="color:#{{enfontcolor}}" bindinput='bindinputen' value="{{enname}}"
+				placeholder="输入品牌英文简称" />
+		</view>
+		<view class="sr" type="default" size="mini" bindtap="chengeEnName">更改英文</view>
+	</view>
+	<view class="li flex">
+		<view class="t">英文颜色:</view>
+		<view class="r">
+			<view style="background:{{enrgb}};;border:1rpx solid #000" bindtap="toPickEn" class="color-block"></view>
+		</view>
+		<view class="sr" type="default" size="mini" bindtap="toPickEn">点击更改</view>
+	</view>
+	<view class="li flex">
+		<view class="t">中文字体:</view>
+		<view class="r rimg" bindtap="showZhFontList">
+			<image mode="widthFix" class="img"
+				src="{{baseUrl}}showfontpic.php?getJson=showPic&text={{name}}&font={{zhfont}}&fontColor={{zhfontcolor}}">
+			</image>
+		</view>
+	</view>
+	<view class="li flex">
+		<view class="t">英文字体:</view>
+		<view class="r rimg" bindtap="showEnFontList">
+			<image mode="widthFix" class="img"
+				src="{{baseUrl}}showfontpic.php?getJson=showPic&text={{enname}}&font={{enfont}}&fontColor={{enfontcolor}}">
+			</image>
+		</view>
+	</view>
+</view>
+<view class="bdflex">
+	<button class="primary" type="primary" bindtap="downs"
+		data-id="{{baseUrl}}edit.php?id={{id}}&name={{name}}&enname={{enname}}&icon={{icon}}&bgcolor={{bgcolor}}&enfontcolor={{enfontcolor}}&zhfontcolor={{zhfontcolor}}&zhfont={{zhfont}}&enfont={{enfont}}">保存到相册</button>
+</view>
+
+<view class="contact">
+	<view class="a">
+		<contact-button type="default-light" size="50" class='btn' session-from="weapp">
+		</contact-button>
+	</view>
+	<text>客服</text>
+</view>
+
+<color-picker bindchangeColor="pickBgColor" initColor="{{bgrgb}}" show="{{pickBg}}" />
+<color-picker bindchangeColor="pickColor" initColor="{{rgb}}" show="{{pick}}" />
+<color-picker bindchangeColor="pickEnColor" initColor="{{enrgb}}" show="{{pickEn}}" />
+
+<!-- 图标列表 -->
+<view bindtap="metalIconFn" class="{{metalIconFlag ? 'metal': 'undis'}}"></view>
+<view class="{{fontListIconFlag ? 'fontListBox': 'undis'}}">
+	<view bindtap="metalIconFn" class="btns"><span>关闭</span></view>
+	<view class="fontList fontIconList">
+		<view class="list" wx:for="{{listIconArr}}">
+			<image bindtap="fontListIconSelect" data-icon="{{item.icon}}" mode="widthFix" class="sicons"
+				src="{{root_apis}}{{item.icon}}">
+			</image>
+		</view>
+	</view>
+</view>
+<!-- 中文字体列表 -->
+<view bindtap="metalFn" class="{{metalFlag ? 'metal': 'undis'}}"></view>
+<view class="{{fontListFlag ? 'fontListBox': 'undis'}}">
+	<view bindtap="metalFn" class="btns"><span>关闭</span></view>
+	<view class="fontList">
+		<view wx:for="{{listArr}}">
+			<image bindtap="fontListSelect" data-downpath="{{item.downpath}}" mode="widthFix" class="s"
+				src="{{baseUrl}}showfontpic.php?getJson=showPic&text={{name}}&font={{item.downpath}}&fontColor={{zhfontcolor}}">
+			</image>
+		</view>
+	</view>
+</view>
+<!-- 英文字体列表 -->
+<view bindtap="metalEnFn" class="{{metalEnFlag ? 'metalEn': 'undis'}}"></view>
+<view class="{{fontListEnFlag ? 'fontListBox': 'undis'}}">
+	<view bindtap="metalEnFn" class="btns"><span>关闭</span></view>
+	<view class="fontList">
+		<view wx:for="{{listEnArr}}">
+			<image bindtap="fontListEnSelect" data-downpath="{{item.downpath}}" mode="widthFix" class="s"
+				src="{{baseUrl}}showfontpic.php?getJson=showPic&text={{enname}}&font={{item.downpath}}&fontColor={{enfontcolor}}">
+			</image>
+		</view>
+	</view>
+</view>

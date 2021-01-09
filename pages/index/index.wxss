@@ -26,3 +26,278 @@
   font-weight: 300;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02);
 }
+
+.list .hd {
+  background: #fff;
+  margin-bottom: 40rpx;
+  line-height: 40rpx;
+  padding: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list .hd h2.title {
+  border-left: 5rpx solid orange;
+  padding-left: 30rpx;
+}
+
+.list .hd .more {
+  color: orange;
+}
+
+.list .hd .more .icon-gengduo {
+  font-size: 60rpx;
+}
+
+.list .bd {
+  margin: 0 10px 0rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list .bd .box {
+  margin-bottom: 40rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  width: 48%;
+}
+
+.list .bd .box .img {
+  width: 100%;
+  height: 500rpx;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+
+.list .bd .box .atitle {
+  padding: 20rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+
+.list .bd .box .atitle .right {
+  font-size: 24rpx;
+}
+
+.list .bd .atitle span {
+  color: orange;
+}
+
+.list .onclick {
+  text-align: center;
+  padding: 10px 20rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.list .ft {
+  padding: 30rpx;
+  font-size: 24rpx;
+  background: rgba(247, 188, 79, 0.1);
+  border-top: 1rpx solid #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list .ft .price {
+  font-size: 30rpx;
+}
+
+.list .ft .price span.red {
+  color: orangered;
+  margin: 0 10rpx;
+}
+
+.list .ft .throgh {
+  text-decoration: line-through;
+}
+
+.list .ft .isDoingText {
+  color: orange;
+}
+
+.list .overed .price {
+  color: #999;
+}
+
+.list .bd .overed .atitle .title {
+  color: #999;
+}
+
+.list .box .do,
+.list .overed .ov {
+  z-index: 99;
+  position: absolute;
+  top: 130rpx;
+  left: 20rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.list .ft .tprice {
+  text-decoration: line-through;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.list .bd .overed .atitle {
+  background: #f8f8f8;
+}
+
+.list .overed .intro {
+  background: #ebebeb;
+}
+
+.list .overed .ft {
+  background: #f1f1f1;
+}
+
+.list .overed .ft .isDoingText {
+  color: #999;
+}
+
+.list .bd .overed .atitle span {
+  color: #666;
+}
+
+.list .overed {
+  opacity: 0.6;
+}
+
+.endtimeStyle {
+  background: #f5f4f4;
+  padding: 30rpx;
+  display: flex;
+  color: #999;
+  font-size: 24rpx;
+  justify-content: space-between;
+}
+
+.endtimeStyle span {
+  color: orange;
+  font-size: 30rpx;
+  margin-right: 10rpx;
+}
+
+.endtimeStyle .e span {
+  color: orangered;
+}
+
+.list .overed .endtimeStyle {
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.list .overed .endtimeStyle span {
+  color: #999;
+  margin: 0;
+  font-size: 30rpx;
+}
+
+.bottomft {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+  padding: 30rpx;
+  color: #999;
+  background: #fffff0;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  border-top: 1rpx solid #ebebeb;
+}
+
+
+.covers {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.addGif {
+  position: fixed;
+  top: 12%;
+  left: 10%;
+  width: 600rpx;
+  height: 710rpx;
+  z-index: 9999;
+}
+
+.closed {
+  position: fixed;
+  bottom: 100rpx;
+  left: 44%;
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  font-weight: 300;
+  z-index: 9999;
+  background: orangered;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 90rpx;
+  opacity: 0.8;
+}
+
+.intro {
+  text-align: left;
+  margin: 20rpx;
+  color: #666;
+  padding-top: 30rpx;
+  background: rgb(253, 246, 234);
+  font-size: 30rpx;
+  line-height: 50rpx;
+  padding: 30rpx;
+  border-radius: 20rpx;
+}
+
+
+.shopbox {
+  margin: 30rpx;
+  background: #FFF;
+  border-radius: 20rpx;
+  padding: 30rpx;
+}
+
+.shopbox .img {
+  width: 100%;
+}
+
+.shopbox .atitle {
+  margin-top: 30rpx;
+}
+
+.shopbox .intro {
+  margin-top: 30rpx;
+  background: #fffff0;
+  border: 1rpx solid #ebebeb;
+  color: #999;
+  border-radius: 10rpx;
+  padding: 30rpx;
+}
+
+.shopbox .prices {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopbox .prices .price {
+  color: orangered;
+}
+
+.shopbox .prices .tprice {
+  text-decoration: line-through;
+}
+
+.us {
+  text-align: center;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+  border-top: 1rpx solid #f8f8f8;
+  padding-top: 20rpx;
+}

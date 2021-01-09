@@ -2,13 +2,32 @@
 	"pages": [
 		"pages/index/index",
 		"pages/list/list",
-		"pages/edit/edit"
+		"pages/edit/edit",
+		"pages/rand/index/index",
+		"pages/rand/list/list"
 	],
 	"window": {
 		"backgroundTextStyle": "light",
 		"navigationBarBackgroundColor": "#ffe300",
 		"navigationBarTitleText": "一键LOGO生成",
 		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#282828",
+		"selectedColor": "#e98f36",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "images/ic_home.png",
+				"selectedIconPath": "images/ic_home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/rand/index/index",
+				"iconPath": "images/ic_class.png",
+				"selectedIconPath": "images/ic_class_active.png",
+				"text": "随机LOGO"
+			}
+		]
 	},
 	"style": "v2",
 	"sitemapLocation": "sitemap.json"

@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "color-picker": "/components/color-picker/color-picker"
+  },
+  "navigationBarTitleText": "在线编辑LOGO"
 }

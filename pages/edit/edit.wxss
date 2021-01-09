@@ -1,1 +1,159 @@
-/* pages/edit/edit.wxss */
+.content {
+	background: #fff;
+	text-align: center;
+}
+
+.undis {
+	display: none;
+}
+
+.diy {
+	background: #fff;
+	padding-top: 20rpx;
+}
+
+.diy .li {
+	padding: 15rpx 30rpx;
+	line-height: 50rpx;
+	justify-content: space-between;
+}
+
+.diy .li .t {
+	color: #999;
+}
+
+.diy .li .r {
+	margin-left: 10rpx;
+	width: 40%;
+}
+
+.diy .li .rimg {
+	width: 60%;
+}
+
+.diy .li .sr {
+	font-size: 30rpx;
+	background: #ffe300;
+	padding: 10rpx 20rpx;
+	border-radius: 20rpx;
+}
+
+.diy .li .r .img {
+	width: 80%;
+	height: 50rpx;
+}
+
+.diy .flex {
+	display: flex;
+}
+
+
+.fontListBox {
+	border-top: 2rpx solid #ffe300;
+	height: 400px;
+	padding-top: 30rpx;
+	text-align: center;
+	z-index: 99999;
+	line-height: 60rpx;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding-bottom: 30rpx;
+	background: #fff;
+}
+
+.fontListBox .fontList {
+	height: 400px;
+	overflow: scroll;
+}
+
+.fontListBox .fontList image {
+	border-bottom: 1rpx solid #f8f8f8;
+}
+
+.fontListBox .btns {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #ffe300;
+	border-bottom-left-radius: 20rpx;
+}
+
+.fontListBox .btns span {
+	padding: 10rpx 30rpx;
+	font-size: 30rpx;
+}
+
+.tips {
+	background: #faef9b;
+	text-align: center;
+	font-size: 30rpx;
+	color: orangered;
+	padding: 30rpx 0;
+}
+
+.metal,
+.metalEn {
+	z-index: 99;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.01);
+}
+
+.color-block {
+	width: 100rpx;
+	height: 50rpx;
+	color: white;
+}
+
+.bdflex {
+	margin: 30rpx 30rpx 100rpx;
+	padding-bottom: 50rpx;
+}
+
+.fontListBox .fontList .sicons {
+	width: 50%;
+}
+
+.fontIconList {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.fontIconList .list {
+	width: 20%;
+}
+
+.bdflex .primary {
+	width: 100%;
+	color: #282828;
+	background: #ffe300;
+	padding: 30rpx 0;
+	font-weight: 300;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02);
+}
+
+.contact {
+	position: fixed;
+	z-index: 999;
+	left: 30rpx;
+	bottom: 80rpx;
+	background: rgba(207, 67, 11, 0.9);
+	padding: 15rpx;
+	border-radius: 20rpx;
+	font-size: 30rpx;
+}
+
+.contact .a {
+	text-align: center;
+}
+
+.contact text {
+	color: #fffff0;
+}
