@@ -2,7 +2,7 @@
 	<image mode="widthFix" bindload="bindloads" class="s" src="{{baseUrl}}edit.php?id={{id}}&name={{name}}&enname={{enname}}&icon={{icon}}&bgcolor={{bgcolor}}&enfontcolor={{enfontcolor}}&zhfontcolor={{zhfontcolor}}&zhfont={{zhfont}}&enfont={{enfont}}">
 	</image>
 </view>
-<view class="tips">下面可以更改相关参数哦,如有需要左下角联系客服</view>
+<view class="tips">下面可以更改相关参数哦</view>
 <view class="diy">
 	<view class="li flex">
 		<view class="t">图标:</view>
