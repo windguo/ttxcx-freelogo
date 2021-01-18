@@ -1,0 +1,889 @@
+{
+    "您需要额外关注的转化日志信息": {
+        "0": {
+            "time": "2021-01-18T11:48:52.565Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 143,
+            "column": 5,
+            "before": "wx.playVoice",
+            "after": "tt.playVoice",
+            "message": "api: playVoice 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.playVoice.html"
+        },
+        "1": {
+            "time": "2021-01-18T11:48:53.088Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 69,
+            "column": 5,
+            "before": "wx.playVoice",
+            "after": "tt.playVoice",
+            "message": "api: playVoice 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.playVoice.html"
+        },
+        "2": {
+            "time": "2021-01-18T11:48:53.262Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 69,
+            "column": 5,
+            "before": "wx.playVoice",
+            "after": "tt.playVoice",
+            "message": "api: playVoice 字节跳动小程序暂不支持，仅更换前缀。请参考微信小程序文档完成适配：https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.playVoice.html"
+        },
+        "3": {
+            "time": "2021-01-18T11:48:53.428Z",
+            "type": "component check warning",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/components/color-picker/color-picker.ttml",
+            "message": "组件：movable-area 未能被识别，请确保该写法正确"
+        },
+        "4": {
+            "time": "2021-01-18T11:48:53.470Z",
+            "type": "component check warning",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/components/color-picker/color-picker.ttml",
+            "message": "组件：movable-view 未能被识别，请确保该写法正确"
+        }
+    },
+    "其他常规转化日志信息": {
+        "0": {
+            "time": "2021-01-18T11:48:54.372Z",
+            "type": "stdOut",
+            "message": "🎊    Congratulations, transform done! Please check transform log in"
+        },
+        "1": {
+            "time": "2021-01-18T11:48:54.402Z",
+            "type": "stdOut",
+            "message": "📝    e:\\windguo\\头条小程序\\ttxcx-freelogo\\log.txt"
+        },
+        "2": {
+            "time": "2021-01-18T11:48:51.598Z",
+            "type": "transform wxss file suffix",
+            "file": "color-picker\\color-picker.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "3": {
+            "time": "2021-01-18T11:48:51.690Z",
+            "type": "transform wxml file suffix",
+            "file": "edit\\edit.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "4": {
+            "time": "2021-01-18T11:48:51.697Z",
+            "type": "transform wxss file suffix",
+            "file": "edit\\edit.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "5": {
+            "time": "2021-01-18T11:48:51.702Z",
+            "type": "transform wxml file suffix",
+            "file": "index\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "6": {
+            "time": "2021-01-18T11:48:51.710Z",
+            "type": "transform wxss file suffix",
+            "file": "index\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "7": {
+            "time": "2021-01-18T11:48:51.717Z",
+            "type": "transform wxml file suffix",
+            "file": "list\\list.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "8": {
+            "time": "2021-01-18T11:48:51.723Z",
+            "type": "transform wxss file suffix",
+            "file": "list\\list.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "9": {
+            "time": "2021-01-18T11:48:51.730Z",
+            "type": "transform wxml file suffix",
+            "file": "rand\\index\\index.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "10": {
+            "time": "2021-01-18T11:48:51.736Z",
+            "type": "transform wxss file suffix",
+            "file": "rand\\index\\index.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "11": {
+            "time": "2021-01-18T11:48:51.742Z",
+            "type": "transform wxml file suffix",
+            "file": "rand\\list\\list.wxml",
+            "message": "转换了视图文件后缀, wxml ==> ttml"
+        },
+        "12": {
+            "time": "2021-01-18T11:48:51.755Z",
+            "type": "transform wxss file suffix",
+            "file": "rand\\list\\list.wxss",
+            "message": "转换了样式文件后缀, wxss ==> ttss"
+        },
+        "13": {
+            "time": "2021-01-18T11:48:52.469Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 64,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "14": {
+            "time": "2021-01-18T11:48:52.486Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 68,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "15": {
+            "time": "2021-01-18T11:48:52.494Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 80,
+            "column": 5,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "16": {
+            "time": "2021-01-18T11:48:52.504Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 83,
+            "column": 5,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "17": {
+            "time": "2021-01-18T11:48:52.514Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 94,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "18": {
+            "time": "2021-01-18T11:48:52.522Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 98,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "19": {
+            "time": "2021-01-18T11:48:52.533Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 110,
+            "column": 5,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "20": {
+            "time": "2021-01-18T11:48:52.539Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 113,
+            "column": 5,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "21": {
+            "time": "2021-01-18T11:48:52.546Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 130,
+            "column": 2,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "22": {
+            "time": "2021-01-18T11:48:52.552Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 134,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "23": {
+            "time": "2021-01-18T11:48:52.557Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 137,
+            "column": 2,
+            "before": "wx.downloadFile",
+            "after": "tt.downloadFile",
+            "message": "api: downloadFile 成功转化"
+        },
+        "24": {
+            "time": "2021-01-18T11:48:52.630Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 148,
+            "column": 4,
+            "before": "wx.saveImageToPhotosAlbum",
+            "after": "tt.saveImageToPhotosAlbum",
+            "message": "api: saveImageToPhotosAlbum 成功转化"
+        },
+        "25": {
+            "time": "2021-01-18T11:48:52.637Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 152,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "26": {
+            "time": "2021-01-18T11:48:52.651Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 156,
+            "column": 6,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "27": {
+            "time": "2021-01-18T11:48:52.664Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 176,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "28": {
+            "time": "2021-01-18T11:48:52.682Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 185,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "29": {
+            "time": "2021-01-18T11:48:52.692Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 194,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "30": {
+            "time": "2021-01-18T11:48:52.702Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 200,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "31": {
+            "time": "2021-01-18T11:48:52.713Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 208,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "32": {
+            "time": "2021-01-18T11:48:52.720Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 217,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "33": {
+            "time": "2021-01-18T11:48:52.725Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 222,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "34": {
+            "time": "2021-01-18T11:48:52.734Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 230,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "35": {
+            "time": "2021-01-18T11:48:52.739Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 265,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "36": {
+            "time": "2021-01-18T11:48:52.752Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 274,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "37": {
+            "time": "2021-01-18T11:48:52.762Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 283,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "38": {
+            "time": "2021-01-18T11:48:52.781Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 292,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "39": {
+            "time": "2021-01-18T11:48:52.803Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 300,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "40": {
+            "time": "2021-01-18T11:48:52.809Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 309,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "41": {
+            "time": "2021-01-18T11:48:52.818Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 314,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "42": {
+            "time": "2021-01-18T11:48:52.822Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 328,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "43": {
+            "time": "2021-01-18T11:48:52.831Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 335,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "44": {
+            "time": "2021-01-18T11:48:52.847Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 346,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "45": {
+            "time": "2021-01-18T11:48:52.859Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 351,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "46": {
+            "time": "2021-01-18T11:48:52.869Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 358,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "47": {
+            "time": "2021-01-18T11:48:52.880Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 369,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "48": {
+            "time": "2021-01-18T11:48:52.885Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 374,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "49": {
+            "time": "2021-01-18T11:48:52.891Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 381,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "50": {
+            "time": "2021-01-18T11:48:52.899Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/edit/edit.js",
+            "row": 392,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "51": {
+            "time": "2021-01-18T11:48:52.959Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 21,
+            "column": 4,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "52": {
+            "time": "2021-01-18T11:48:52.966Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 25,
+            "column": 4,
+            "before": "wx.showShareMenu",
+            "after": "tt.showShareMenu",
+            "message": "api: showShareMenu 成功转化"
+        },
+        "53": {
+            "time": "2021-01-18T11:48:52.973Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 31,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "54": {
+            "time": "2021-01-18T11:48:52.980Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 36,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "55": {
+            "time": "2021-01-18T11:48:52.986Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 41,
+            "column": 6,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "56": {
+            "time": "2021-01-18T11:48:52.991Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 44,
+            "column": 6,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "57": {
+            "time": "2021-01-18T11:48:52.999Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 58,
+            "column": 12,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "58": {
+            "time": "2021-01-18T11:48:53.003Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 61,
+            "column": 12,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "59": {
+            "time": "2021-01-18T11:48:53.009Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 63,
+            "column": 12,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "60": {
+            "time": "2021-01-18T11:48:53.016Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 74,
+            "column": 4,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "61": {
+            "time": "2021-01-18T11:48:53.021Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/index/index.js",
+            "row": 83,
+            "column": 10,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "62": {
+            "time": "2021-01-18T11:48:53.049Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 19,
+            "column": 2,
+            "before": "wx.setNavigationBarTitle",
+            "after": "tt.setNavigationBarTitle",
+            "message": "api: setNavigationBarTitle 成功转化"
+        },
+        "63": {
+            "time": "2021-01-18T11:48:53.055Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 22,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "64": {
+            "time": "2021-01-18T11:48:53.059Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 33,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "65": {
+            "time": "2021-01-18T11:48:53.065Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 42,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "66": {
+            "time": "2021-01-18T11:48:53.070Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 47,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "67": {
+            "time": "2021-01-18T11:48:53.074Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 57,
+            "column": 2,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "68": {
+            "time": "2021-01-18T11:48:53.083Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 63,
+            "column": 2,
+            "before": "wx.downloadFile",
+            "after": "tt.downloadFile",
+            "message": "api: downloadFile 成功转化"
+        },
+        "69": {
+            "time": "2021-01-18T11:48:53.092Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 74,
+            "column": 4,
+            "before": "wx.saveImageToPhotosAlbum",
+            "after": "tt.saveImageToPhotosAlbum",
+            "message": "api: saveImageToPhotosAlbum 成功转化"
+        },
+        "70": {
+            "time": "2021-01-18T11:48:53.101Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/list/list.js",
+            "row": 78,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "71": {
+            "time": "2021-01-18T11:48:53.141Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/index/index.js",
+            "row": 21,
+            "column": 2,
+            "before": "wx.showShareMenu",
+            "after": "tt.showShareMenu",
+            "message": "api: showShareMenu 成功转化"
+        },
+        "72": {
+            "time": "2021-01-18T11:48:53.149Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/index/index.js",
+            "row": 27,
+            "column": 3,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "73": {
+            "time": "2021-01-18T11:48:53.157Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/index/index.js",
+            "row": 32,
+            "column": 3,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "74": {
+            "time": "2021-01-18T11:48:53.163Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/index/index.js",
+            "row": 37,
+            "column": 3,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "75": {
+            "time": "2021-01-18T11:48:53.169Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/index/index.js",
+            "row": 40,
+            "column": 3,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "76": {
+            "time": "2021-01-18T11:48:53.174Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/index/index.js",
+            "row": 54,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "77": {
+            "time": "2021-01-18T11:48:53.181Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/index/index.js",
+            "row": 57,
+            "column": 6,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "78": {
+            "time": "2021-01-18T11:48:53.188Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/index/index.js",
+            "row": 59,
+            "column": 6,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "79": {
+            "time": "2021-01-18T11:48:53.208Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 19,
+            "column": 2,
+            "before": "wx.setNavigationBarTitle",
+            "after": "tt.setNavigationBarTitle",
+            "message": "api: setNavigationBarTitle 成功转化"
+        },
+        "80": {
+            "time": "2021-01-18T11:48:53.215Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 22,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "81": {
+            "time": "2021-01-18T11:48:53.224Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 33,
+            "column": 2,
+            "before": "wx.request",
+            "after": "tt.request",
+            "message": "api: request 成功转化"
+        },
+        "82": {
+            "time": "2021-01-18T11:48:53.230Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 42,
+            "column": 4,
+            "before": "wx.hideLoading",
+            "after": "tt.hideLoading",
+            "message": "api: hideLoading 成功转化"
+        },
+        "83": {
+            "time": "2021-01-18T11:48:53.236Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 47,
+            "column": 2,
+            "before": "wx.showLoading",
+            "after": "tt.showLoading",
+            "message": "api: showLoading 成功转化"
+        },
+        "84": {
+            "time": "2021-01-18T11:48:53.241Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 57,
+            "column": 2,
+            "before": "wx.navigateTo",
+            "after": "tt.navigateTo",
+            "message": "api: navigateTo 成功转化"
+        },
+        "85": {
+            "time": "2021-01-18T11:48:53.254Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 63,
+            "column": 2,
+            "before": "wx.downloadFile",
+            "after": "tt.downloadFile",
+            "message": "api: downloadFile 成功转化"
+        },
+        "86": {
+            "time": "2021-01-18T11:48:53.270Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 74,
+            "column": 4,
+            "before": "wx.saveImageToPhotosAlbum",
+            "after": "tt.saveImageToPhotosAlbum",
+            "message": "api: saveImageToPhotosAlbum 成功转化"
+        },
+        "87": {
+            "time": "2021-01-18T11:48:53.282Z",
+            "type": "transform function call arg name",
+            "file": "e:/windguo/头条小程序/ttxcx-freelogo/pages/rand/list/list.js",
+            "row": 78,
+            "column": 6,
+            "before": "wx.showModal",
+            "after": "tt.showModal",
+            "message": "api: showModal 成功转化"
+        },
+        "88": {
+            "time": "2021-01-18T11:48:53.318Z",
+            "type": "stdOut",
+            "message": "🍻    Successfully transform js file"
+        },
+        "89": {
+            "time": "2021-01-18T11:48:53.513Z",
+            "type": "stdOut",
+            "message": "🍻    Successfully transform wxml file"
+        },
+        "90": {
+            "time": "2021-01-18T11:48:53.546Z",
+            "type": "stdOut",
+            "message": "🍻    Successfully transform wxss file"
+        }
+    }
+}

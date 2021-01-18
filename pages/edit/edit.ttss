@@ -50,7 +50,7 @@
 
 .fontListBox {
 	border-top: 2rpx solid #ffe300;
-	height: 400px;
+	/* height: 400px; */
 	padding-top: 30rpx;
 	text-align: center;
 	z-index: 99999;
@@ -65,8 +65,8 @@
 }
 
 .fontListBox .fontList {
-	height: 400px;
-	overflow: scroll;
+	/* height: 400px; */
+	/* overflow: scroll; */
 }
 
 .fontListBox .fontList image {
@@ -79,6 +79,7 @@
 	right: 0;
 	background: #ffe300;
 	border-bottom-left-radius: 20rpx;
+	z-index: 9999;
 }
 
 .fontListBox .btns span {
@@ -127,7 +128,8 @@
 }
 
 .fontIconList .list {
-	width: 20%;
+	width: 25%;
+	height: 60px;
 }
 
 .bdflex .primary {
@@ -139,21 +141,3 @@
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02);
 }
 
-.contact {
-	position: fixed;
-	z-index: 999;
-	left: 30rpx;
-	bottom: 80rpx;
-	background: rgba(207, 67, 11, 0.9);
-	padding: 15rpx;
-	border-radius: 20rpx;
-	font-size: 30rpx;
-}
-
-.contact .a {
-	text-align: center;
-}
-
-.contact text {
-	color: #fffff0;
-}

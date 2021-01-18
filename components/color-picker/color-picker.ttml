@@ -1,5 +1,5 @@
 <view class="dialog {{show ? 'dialog_show' : ''}}">
-  <view wx:if="{{mask}}" class="weui-mask" catchtap="close" catchtouchmove="close"></view>
+  <view tt:if="{{mask}}" class="weui-mask" catchtap="close" catchtouchmove="close"></view>
   <view class="weui-actionsheet {{show ? 'weui-actionsheet_toggle' : ''}}" catchtouchmove="preventdefault">
     <view class="weui-half-screen-dialog__hd">
       <view class="weui-half-screen-dialog__hd__side" bindtap="close">

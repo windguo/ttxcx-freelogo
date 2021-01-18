@@ -1,0 +1,22 @@
+page {
+	background: #f1f1f1;
+}
+
+.contact {
+	position: fixed;
+	z-index: 999;
+	left: 30rpx;
+	bottom: 80rpx;
+	background: rgba(207, 67, 11, 0.9);
+	padding: 15rpx;
+	border-radius: 20rpx;
+	font-size: 30rpx;
+}
+
+.contact .a {
+	text-align: center;
+}
+
+.contact text {
+	color: #fffff0;
+}

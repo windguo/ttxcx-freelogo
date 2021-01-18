@@ -41,7 +41,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.1",
-  "appid": "wx8041cab51c6ffcff",
+  "appid": "tta90cdfb13626ec0c",
   "projectname": "freelogo",
   "debugOptions": {
     "hidedInDevtools": []
@@ -71,7 +71,7 @@
         {
           "name": "pages/edit/edit",
           "pathName": "pages/edit/edit",
-          "query": "id=1&name=简洁设计网&enname=JianJieSheJiWang&icon=/d/file/p/2021/01-08/b0098e30b2bb2d3a9b886f94ffe64b5b.png&bgcolor=FFFFFF&enfontcolor=E68B32&zhfontcolor=1068AC&zhfont=/d/file/p/2020/12-30/5383b1aec6119f805da325bafc202768.ttf&enfont=/d/file/p/2020/12-30/074453a08b7bd9076d4a269f4c39a137.ttf",
+          "query": "id=4&name=简洁设计网&enname=JianJieSheJiWang&icon=/d/file/p/2021/01-13/aa48c6fa7f793811903876ff7c5ed297.png&bgcolor=&enfontcolor=85C02A&zhfontcolor=076F36&zhfont=&enfont=",
           "scene": null
         }
       ]

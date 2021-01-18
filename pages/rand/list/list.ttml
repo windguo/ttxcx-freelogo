@@ -3,12 +3,11 @@
 	<view class="refresh" bindtap="refresh">换一换</view>
 </view>
 <view class="h"></view>
-<view class="list" wx:for="{{listArr}}">
+<view class="list" tt:for="{{listArr}}">
 	<image mode="widthFix" class="s" src="{{baseUrl}}show.php?id={{item.id}}&name={{name}}&enname={{enname}}">
 	</image>
 	<view class="bdflex">
 		<!-- <button class="b" type="default" data-id="?id={{item.id}}&name={{name}}&enname={{enname}}" bindtap="edits">编辑</button> -->
-		<button class="b" type="primary" bindtap="downs"
-			data-id="{{baseUrl}}show.php?id={{item.id}}&name={{name}}&enname={{enname}}">保存到相册</button>
+		<button class="b" type="primary" bindtap="downs" data-id="{{baseUrl}}show.php?id={{item.id}}&name={{name}}&enname={{enname}}">保存到相册</button>
 	</view>
 </view>
