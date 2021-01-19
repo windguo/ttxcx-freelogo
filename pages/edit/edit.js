@@ -54,7 +54,7 @@ Page({
       enrgb: this.hexToRgba('#' + options.enfontcolor),
       enfontcolor: options.enfontcolor
     });
-    console.log(this.data.rgb);
+    // console.log(this.data.rgb);
   },
 
   bindinputzh(e) {
@@ -139,7 +139,20 @@ Page({
     console.log('....bindloads...');
     tt.hideLoading();
   },
-
+  copy(e){
+		tt.setClipboardData({
+			data: e.currentTarget.dataset.text.trim(),
+			success: function (res) {
+				tt.getClipboardData({
+					success: function (res) {
+            tt.showModal({
+              content:'地址复制成功,可粘贴到浏览器打开'
+            });
+					}
+				})
+			}
+		})
+  },
   downs(e) {
     var url = e.target.dataset.id;
     let that = this

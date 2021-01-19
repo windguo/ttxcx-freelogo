@@ -8,6 +8,6 @@
 	</image>
 	<view class="bdflex">
 		<button class="b" type="warn" data-id="?id={{item.id}}&name={{name}}&enname={{enname}}&icon={{item.icon}}&bgcolor={{item.bgcolor}}&enfontcolor={{item.enfontcolor}}&zhfontcolor={{item.zhfontcolor}}&zhfont={{item.zhfont}}&enfont={{item.enfont}}" bindtap="edits">编辑</button>
-		<button class="b" type="primary" bindtap="downs" data-id="{{baseUrl}}fangan.php?id={{item.id}}&name={{name}}&enname={{enname}}&icon={{item.icon}}&bgcolor={{item.bgcolor}}&enfontcolor={{item.enfontcolor}}&zhfontcolor={{item.zhfontcolor}}&zhfont={{item.zhfont}}&enfont={{item.enfont}}">保存到相册</button>
+		<!-- <button class="b" type="primary" bindtap="downs" data-id="{{baseUrl}}fangan.php?id={{item.id}}&name={{name}}&enname={{enname}}&icon={{item.icon}}&bgcolor={{item.bgcolor}}&enfontcolor={{item.enfontcolor}}&zhfontcolor={{item.zhfontcolor}}&zhfont={{item.zhfont}}&enfont={{item.enfont}}">保存到相册</button> -->
 	</view>
 </view>

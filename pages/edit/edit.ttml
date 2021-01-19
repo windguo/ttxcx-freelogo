@@ -62,7 +62,8 @@
 	</view>
 </view>
 <view class="bdflex">
-	<button class="primary" type="primary" bindtap="downs" data-id="{{baseUrl}}edit.php?id={{id}}&name={{name}}&enname={{enname}}&icon={{icon}}&bgcolor={{bgcolor}}&enfontcolor={{enfontcolor}}&zhfontcolor={{zhfontcolor}}&zhfont={{zhfont}}&enfont={{enfont}}">保存到相册</button>
+	<!-- <button class="primary" type="primary" bindtap="downs" data-id="{{baseUrl}}edit.php?id={{id}}&name={{name}}&enname={{enname}}&icon={{icon}}&bgcolor={{bgcolor}}&enfontcolor={{enfontcolor}}&zhfontcolor={{zhfontcolor}}&zhfont={{zhfont}}&enfont={{enfont}}">保存到相册</button> -->
+	<button class="primary" type="primary" bindtap="copy" data-text="{{baseUrl}}edit.php?id={{id}}&name={{name}}&enname={{enname}}&icon={{icon}}&bgcolor={{bgcolor}}&enfontcolor={{enfontcolor}}&zhfontcolor={{zhfontcolor}}&zhfont={{zhfont}}&enfont={{enfont}}">复制logo地址</button>
 </view>
 
 <color-picker bindchangeColor="pickBgColor" initColor="{{bgrgb}}" show="{{pickBg}}" />
